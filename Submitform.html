@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+  function validateForm() {
+    var fullname = document.forms["myForm"]["usrnm"].value;
+    var email = document.forms["myForm"]["email"].value;
+    var password = document.forms["myForm"]["psw"].value;
+    var phone = document.forms["myForm"]["phone"].value;
+    var gender = document.forms["myForm"]["gender"].value;
+
+    if (fullname == "" || email == "" || password == "" || phone == "" || gender == "") {
+      alert("Please fill out all required fields.");
+      return false;
+    }
+
+    // Validate email format
+    var emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+      return false;
+    }
+
+    // Validate password length
+    if (password.length < 4) {
+      alert("Password must be at least 4 characters long.");
+      return false;
+    }
+
+    // Validate phone number format
+    var phoneRegex = /^\d{11}$/;
+    if (!phoneRegex.test(phone)) {
+      alert("Please enter a valid 11-digit phone number.");
+      return false;
+    }
+    if (fullname != "" && emailRegex.test(email) && password.length >= 4 && phoneRegex.test(phone) && gender != "") {
+      alert("Submission successful!");
+      return true;
+      form.reset();
+    }
+  }
+  
+</script>
+
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+input[type=radio] {
+      display: none;
+      }
+      
+      label.radio {
+      position: relative;
+      display: inline-block;
+      padding-top: 4px;
+      margin-right: 20px;
+      text-indent: 30px;
+      overflow: visible;
+      cursor: pointer;
+      padding-bottom:2px;
+      
+      }
+      label.radio:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: dodgerblue;
+      }
+      label.radio:after {
+      content: "";
+      position: absolute;
+      width: 9px;
+      height: 4px;
+      top: 8px;
+      left: 4px;
+      border: 3px solid #fff;
+      border-top: none;
+      border-right: none;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=radio]:checked + label:after {
+      opacity: 1;
+      }
+      h2{
+      text-align:center;
+      }
+</style>
+</head>
+<body>
+
+<form name="myForm" action="" onsubmit="return validateForm()" style="max-width:500px;margin:auto">
+
+  <h2>BIO-DATA</h2>
+  <hr>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Fullname" name="usrnm" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="Email" placeholder="Email" name="email"  required>
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw" required>
+  </div>
+  <div class="input-container">
+  <i class="fa fa-phone icon"></i>
+  <input class="input-field" type="phone" placeholder="Phone number" name="phone"required>
+  </div>
+  <hr>
+  <div class="gender">
+          <input type="radio" value="none" id="male" name="gender" required/>
+          <label for="male" class="radio">Male</label>
+          <input type="radio" value="none" id="female" name="gender"/>
+          <label for="female" class="radio">Female</label>
+        </div>
+<hr>
+  <button  type="submit" class="btn">SUBMIT</button>
+</form>
+</body>
+</html>
