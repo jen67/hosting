@@ -36,6 +36,11 @@
       alert("Please enter a valid 11-digit phone number.");
       return false;
     }
+     // Validate gender selection
+     if (!gender) {
+    alert("Please select a valid gender.");
+    return false;
+  }
     if (fullname != "" && emailRegex.test(email) && password.length >= 4 && phoneRegex.test(phone) && gender != "") {
       alert("Submission successful!");
       return true;
@@ -47,7 +52,8 @@
 
 
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: black;}
 * {box-sizing: border-box;}
 
 .input-container {
@@ -71,10 +77,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   padding: 10px;
   outline: none;
 }
-
 .input-field:focus {
-  border: 2px solid dodgerblue;
-}
+        outline: none;
+        border-color: dodgerblue;
+        box-shadow: 0 0 10px dodgerblue;
+      }
+
+
 
 /* Set a style for the submit button */
 .btn {
@@ -131,13 +140,65 @@ input[type=radio] {
       input[type=radio]:checked + label:after {
       opacity: 1;
       }
+      .gender{
+        font-size:20px;
+      }
       h2{
       text-align:center;
       }
+      fieldset{
+        background-color: #0e0c0c;
+        max-width: 500px;
+        height: 480px;
+        margin: auto;
+        margin-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+        border-style: 20px groove;
+        border-color: red navy magenta purple;
+        animation: glow 2s ease-in-out infinite; /* add an animation with a 2-second duration that loops infinitely */
+        color: linear-gradient(45deg, navy, purple, red, yellow, hotpink, green, brown, cyan, magenta );
+        z-index: -1;
+        
+      }
+
+@keyframes glow {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: navy;
+  }
+  50% {
+    border-color: magenta;
+  }
+  75% {
+    border-color: purple;
+  }
+  100% {
+    border-color: red;
+  }
+      }
+      fieldset:hover {
+  box-shadow: 0 0 60px 30px blue;
+}
+h2, label.radio {
+  color: white;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+
+      
 </style>
 </head>
 <body>
-
+<fieldset>
 <form name="myForm" action="" onsubmit="return validateForm()" style="max-width:500px;margin:auto">
 
   <h2>BIO-DATA</h2>
@@ -162,7 +223,7 @@ input[type=radio] {
   </div>
   <hr>
   <div class="gender">
-          <input type="radio" value="none" id="male" name="gender" required/>
+          <input type="radio" value="none" id="male" name="gender" />
           <label for="male" class="radio">Male</label>
           <input type="radio" value="none" id="female" name="gender"/>
           <label for="female" class="radio">Female</label>
@@ -170,5 +231,7 @@ input[type=radio] {
 <hr>
   <button  type="submit" class="btn">SUBMIT</button>
 </form>
+</fieldset>
 </body>
 </html>
+
