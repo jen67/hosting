@@ -27,8 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     background: url(fitth.jpeg);
-    background-size: contain;
-    background-repeat:no-repeat;
+    background-size: cover;
 }
 .banner .content{
     max-width: 900px;
