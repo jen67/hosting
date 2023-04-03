@@ -30,7 +30,7 @@ screenshot of my design
 ### Links
 
 
-- Live Site URL:(https://jen67.github.io/hosting/QR-CODE-COMPONENT-MAIN/QRCODE.html)
+- Live Site URL:(https://jen67.github.io/hosting/QR-CODE-COMPONENT-MAIN/design/QRCODE.html)
 
 
 ## My process
