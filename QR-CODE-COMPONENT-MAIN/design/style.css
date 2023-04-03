@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit' ,sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+.container{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    max-width: 360px;
+    margin: auto;
+    position: relative;
+    box-shadow: 5px #888888;
+    ;
+    
+
+    
+
+   
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding:18px;
+    border-radius: 20px;
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.text{
+    padding: 10px 8px;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+.card p{
+    font-size: 15px;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+    
+}
+.card h2{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+    
+} 
+.attribution{
+    
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+    
+    
+     
+}
+.attribution { font-size:15px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution a:hover{
+    color: brown;
+}
+
+   
