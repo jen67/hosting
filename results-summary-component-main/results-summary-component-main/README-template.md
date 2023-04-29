@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution Url]([https://your-solution-url.com](https://github.com/jen67/hosting/tree/main/results-summary-component-main/results-summary-component-main))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ live site URL]([https://your-live-site-url.com](https://jen67.github.io/hosting/results-summary-component-main/results-summary-component-main/index.html))
 
 ## My process
 
