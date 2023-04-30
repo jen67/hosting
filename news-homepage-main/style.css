@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+:root {
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 100vh;
+}
+
+nav,
+main {
+    max-width: 114.2rem;
+    padding: 0 1.6rem;
+    margin: 0 auto;
+
+}
+
+main {
+    background: var(--Off-white);
+    margin-top: 8.8rem;
+}
+
+main picture {
+    display: block;
+    overflow: hidden;
+}
+
+main picture img {
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* This covers the top nav bar*/
+nav {
+    height: 8.4rem;
+    padding: 2.8rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: var(--Off-white);
+}
+
+/*.backdrop{
+    background: rgba(255, 255, 255, 0.2); /* Make sure this color has an opacity of less than 1*/
+/*backdrop-filter: blur(8px); /*This be the blur*
+        height: 100vh;
+        width: 50%;
+}*/
+nav .logo {
+    display: inline-block;
+    height: 100%;
+}
+
+nav .logo img {
+    width: 90%;
+    display: inline-block;
+}
+
+nav .menu {
+    display: inline-block;
+    height: 1.7rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+nav .close {
+    display: inline-block;
+    height: 3.1rem;
+    position: absolute;
+    top: 2.8rem;
+    right: 1.6rem;
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* This covers the side navigation bar*/
+nav ul {
+    position: absolute;
+    list-style: none;
+    top: 2.9rem;
+    right: 0;
+    background: var(--Off-white);
+    height: 100vh;
+    width: 66%;
+    margin-top: 0.01rem;
+    padding: 9rem 0 0 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    transition: all 0.5s ease-in-out;
+    transform-origin: 100% 0%;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    color: var(--Very-dark-blue);
+}
+
+nav ul li a:hover {
+    color: var(--Soft-red);
+}
+
+.hide {
+    transform: scale(0);
+}
+
+.headline h1 {
+    font-weight: 800px;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    margin-top: 0.3em;
+    color: var(--Very-dark-blue);
+}
+
+.headline .article p {
+    color: var(--Dark-grayish-blue);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+}
+
+.headline .article button {
+    background: var(--Soft-red);
+    font-weight: 600;
+    font-size: 1rem;
+    border: var(--Soft-red);
+    letter-spacing: 0.3em;
+    padding: 12px 26px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    color: var(--Off-white);
+}
+
+.headline .article button:hover {
+    background: var(--Very-dark-blue);
+}
+
+.side {
+    background: var(--Very-dark-blue);
+    margin-top: 4.3rem;
+    padding: 1.6rem 1.2rem;
+}
+
+.side h2 {
+    color: var(--Soft-orange);
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.side .side-article h4 {
+    color: var(--Off-white);
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+}
+
+.side .side-article h4:hover {
+    color: var(--Soft-orange);
+}
+
+.side .side-article p {
+    color: var(--Grayish-blue);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.side hr {
+    margin: 2rem 0;
+    border: 1px solid var(--Dark-grayish-blue);
+}
+
+.second-section {
+    margin-top: 4.5rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+.second-section .second-section-1 {
+    display: flex;
+    gap: 1.7rem;
+    /* max-width:200px; */
+    /* min-height:auto; */
+    /* width:30%; */
+    /* height:30%; */
+}
+
+.second-section .second-section-1 img {
+    width: 100px;
+
+
+}
+
+.second-section .second-section-1 h3 {
+    color: var(--Grayish-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.second-section .second-section-1 h4 {
+    color: var(--Very-dark-blue);
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 0.9rem;
+}
+
+.second-section .second-section-1 h4:hover {
+    color: var(--Soft-red);
+}
+
+.second-section .second-section-1 p {
+    color: var(--Dark-grayish-blue);
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+div.attribution {
+    text-align: center;
+    font-size: 1.0rem;
+    color: var(--Very-dark-blue);
+}
+
+div.attribution a {
+    color: var(--Dark-grayish-blue);
+    text-decoration: none;
+}
+
+div.attribution a:hover {
+    color: var(--Soft-red);
+}
+
+@media screen and (min-width: 1204px) {
+
+    main,
+    nav {
+        padding: 0 2rem;
+    }
+
+    nav {
+        padding: 2rem 2rem;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .close {
+        display: none;
+    }
+
+    nav ul {
+        transform: scale(1) !important;
+        position: static;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    .headline {
+        column-count: 2;
+        gap: 4rem;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+
+
+    }
+
+    .headline p {
+        font-size: 17px !important;
+        padding: 1.8rem 0 0 0;
+    }
+
+    .sub {
+        display:flex;
+        gap: 2rem;
+        margin-bottom: 1rem;
+        height: fit-content;
+    }
+
+    .side {
+        margin-top: 0;
+        padding: 1rem 20px 0.5 20px;
+        height:fit-content;
+
+    }
+
+    .join {
+        width: 100%
+    }
+
+    button {
+        margin-top: 2rem !important;
+    }
+
+    .second-section {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 0.1rem;
+        justify-content: space-between;
+    }
+
+    .second-section .second-section-1 p {
+        font-size: 1.1rem;
+    }
+
+    .second-section .second-section-1 h4 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    main,
+    nav {
+        padding: 0 7.8rem;
+    }
+
+    nav {
+        padding: 2.8rem 7.8rem;
+    }
+
+    nav .menu {
+        display: none;
+    }
+
+    nav .close {
+        display: none;
+    }
+
+    nav ul {
+        transform: scale(1) !important;
+        position: static;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        gap: 3.0rem;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+        color: var(--Dark-grayish-blue);
+    }
+
+
+
+    .headline {
+        column-count: 2;
+        gap: 6rem;
+
+    }
+
+    .headline h1 {
+        font-size: 74px;
+        line-height: 1.1;
+        word-spacing: 0.5rem;
+        font-weight: 800;
+    }
+
+    .headline p {
+        font-size: 19px !important;
+        line-height: 1.6 !important;
+        font-weight: 400;
+        padding-top: 1.5rem !important;
+        margin-top: 0;
+
+    }
+
+    .headline button {
+        padding: 17px 47px !important;
+        margin-top: 3.2rem !important;
+    }
+
+    .sub {
+        display: flex;
+        gap: 2rem;
+        height: fit-content;
+        margin: 0px 0px 75px;
+    }
+
+    .join {
+        width: 70%;
+    }
+
+    .side {
+        margin-top: 0;
+        width: 30%;
+        padding: 3.2rem 2.4rem;
+        height: fit-content;
+        overflow: hidden;
+
+
+    }
+
+    .side p {
+        font-size: 1rem !important;
+    }
+
+    .side h4 {
+        font-size: 1.1rem !important;
+    }
+
+    .side h2 {
+        font-size: 2.5rem;
+
+    }
+
+    .second-section {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 7rem;
+        gap: 4.5rem !important;
+
+    }
+
+    .second-section p {
+        font-size: 19.3px !important;
+
+    }
+
+    .second-section h4 {
+        font-size: 20px !important;
+    }
+
+
+    .headline .article {
+        max-width: 35rem !important;
+    }
+
+    .second-section .second-section-1 {
+        max-width: 35rem !important;
+    }
+
+    .second-section .second-section-1 {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
