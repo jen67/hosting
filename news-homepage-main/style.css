@@ -24,18 +24,19 @@ body {
     font-size: 1.5rem;
     font-weight: 400;
     height: 100vh;
+    background: var(--Off-white);
+
 }
 
 nav,
 main {
-    max-width: 114.2rem;
+    max-width: 100%;
     padding: 0 1.6rem;
     margin: 0 auto;
 
 }
 
 main {
-    background: var(--Off-white);
     margin-top: 8.8rem;
 }
 
@@ -315,7 +316,7 @@ div.attribution a:hover {
     }
 
     .sub {
-        display:flex;
+        display: flex;
         gap: 2rem;
         margin-bottom: 1rem;
         height: fit-content;
@@ -324,7 +325,7 @@ div.attribution a:hover {
     .side {
         margin-top: 0;
         padding: 1rem 20px 0.5 20px;
-        height:fit-content;
+        height: fit-content;
 
     }
 
