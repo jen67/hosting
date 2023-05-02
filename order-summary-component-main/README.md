@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution URL](https://github.com/jen67/hosting/tree/main/order-summary-component-main)
-- Live Site URL: [My live site URL](https://jen67.github.io/hosting/order-summary-component-main/index.html)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
