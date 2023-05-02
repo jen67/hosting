@@ -75,7 +75,8 @@ section {
     font-size: 1.2rem;
 }
 
-.box1 button {
+ .button {
+    display:inline-block;
     border-radius: 50%;
     border: none;
     width: 125PX;
@@ -83,13 +84,14 @@ section {
     background: linear-gradient(to bottom, var(--Violet-blue-circle), var(--Persian-blue-circle));
 }
 
-.box1 button h2{
+.button h2{
     color: var(--white);
     font-size: 3rem;
+    margin-top: 1rem;
 
 }
 
-.box1 button p {
+ .button p {
     color: var(--light-lavender);
 
 }
