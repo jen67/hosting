@@ -18,12 +18,10 @@ body{
     margin: auto;
     position: relative;
     box-shadow: 5px #888888;
-    ;
-    
+}
 
-    
-
-   
+h1{
+    font-size: 1.5rem;
 }
 .card{
     background-color: hsl(0, 0%, 100%);
@@ -40,7 +38,6 @@ body{
 .text{
     padding: 10px 8px;
     text-align: center;
-    letter-spacing: 0.09em;
 }
 .card p{
     font-size: 15px;
@@ -60,11 +57,10 @@ body{
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    white-space: nowrap;
-    
-    
+    white-space: nowrap;    
      
 }
+
 .attribution { font-size:15px; text-align: center; }
 
 .attribution a { color: hsl(228, 45%, 44%); }
