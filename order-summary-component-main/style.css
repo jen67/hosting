@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    font-family:'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    /*Primary colors*/
+
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --transparent-blue: hsla(225, 100%, 94%, 0.3);
+    --link-color: hsl(245, 54%, 53%);
+    --Bright-blue-shadow: hsla(245, 75%, 52%, 0.2);
+    --button-hover: hsl(245, 59%, 66%);
+    --Bright-blue-shadow-desktop: hsla(245, 75%, 52%, 0.05);
+
+    /* Natural colors*/
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+p{
+    font-size:1rem;
+    color:var(--Desaturated-blue);
+}
+
+
+body{
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: var(--Pale-blue);
+   
+    
+}
+
+section{
+    margin-top:5rem!important;
+    max-width:400px;
+    width:330px;
+    margin:auto;
+   text-align: center;
+   background-color: var(--Very-pale-blue);
+   border-radius:20px;
+   
+}
+
+section h2{
+    font-weight: 900;
+    color:var(--Dark-blue);
+    padding: 0 0 1rem 0;
+}
+
+.content{
+    padding:20px;
+}
+section p{
+font-size: 1rem;
+line-height:1.5;
+letter-spacing: 0.5px;
+}
+
+section img{
+    max-width:100%;
+    border-radius:20px 20px 0 0;
+}
+
+.join{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+.plan{
+    background-color: var(--transparent-blue);
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:14px;
+    border-radius: 10px;
+    margin-top:1.5rem;
+}
+
+.dark{
+    color:var(--Dark-blue);
+    font-weight: 900;
+}
+
+section a{
+    color:var(--link-color);
+    font-weight: 700;
+    cursor:pointer;
+}
+
+section a:hover{
+    text-decoration: none;
+    opacity:0.7;
+}
+
+section button{
+    color:var(--Very-pale-blue);
+    background-color: var(--Bright-blue);
+    border:none;
+    padding:15px;
+    font-weight: 700;
+    width:100%;
+    border-radius:11px;
+    margin-top:1.5rem;
+    box-shadow: 0 20px 18px var(--Bright-blue-shadow);
+    cursor:pointer;
+}
+
+section button:hover{
+    background-color:var(--button-hover);
+    
+}
+
+.order{
+    margin:1.2rem 0 0.5rem 0;
+    font-weight: 900;
+    cursor:pointer;
+}
+ .order:hover{
+    color:var(--Dark-blue);
+ }
+
+ footer .attribution{ 
+font-size: 15px;
+text-align: center;
+margin-top:2rem;
+word-break: break-all;
+ }
+
+ .attribution a {
+ color:var(--Desaturated-blue);
+ text-decoration: none;
+ }
+
+ .attribution a:hover{
+  color:var(--link-color);
+        }
+
+ @media screen and (min-width: 768px){
+     body{
+            background: url(./images/pattern-background-desktop.svg);
+            background-size: 100% 50%;
+             background-color: var(--Pale-blue);
+            background-repeat: no-repeat;
+        }
+
+                section{
+                    max-width: 500px;
+                    width:400px;
+            box-shadow: 0 20px 20px var(--Bright-blue-shadow-desktop);
+        }
+
+        .content{
+            padding: 30px;
+        }
+ }
+
