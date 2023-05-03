@@ -46,7 +46,6 @@ main{
     color:var(--Very-Dark-Magenta);
     font-size:2rem;
     margin-top: 1rem;
-    text-shadow: 2px 1px var(--shadow);
 }
 
 .first p{
