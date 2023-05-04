@@ -412,3 +412,109 @@ nav .logo img{
     padding-top: 0.3rem;
 }
 }
+
+@media screen and (min-width: 799px){
+    .side{
+        padding-top:1rem
+    }
+
+    .side .side-article p{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 912px){
+    .side .side-article p {
+     line-height: 1.6;
+     font-size: 0.7rem;
+     margin-top: 1rem;  
+    }
+
+   .side h2 {
+    font-size: 1.9rem;
+    margin-bottom:1.5rem;
+    padding-top:1rem;
+    }
+    
+    .side hr {
+     margin: 1.8rem 0;
+     }
+
+   .headline .article p {
+    padding-top: 1.8rem;
+    font-size:0.8rem;
+    line-height: 2;
+    }
+
+  .second-section{
+    padding-bottom:6rem;
+  }
+}
+
+  @media screen and (min-width: 950px){
+    .side{
+        padding-bottom:0;
+    }
+
+   .side .side-article p {
+    font-size: 0.8rem;
+}
+
+  }
+
+@media screen and (min-width: 977px){
+    .headline h1{
+        font-size: 3rem;
+    }
+
+    .side .side-article p {
+     font-size: 0.86rem;
+}
+
+   .headline .article p {
+    font-size: 0.88rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  nav ul li a {
+        font-size:1.1rem;
+    }
+
+    nav .logo img{
+        width:100%;
+    }
+
+    main{
+        margin-top:6.5rem;
+    }
+
+    nav {
+     padding: 1.5rem 2rem;
+    }
+
+    .side .side-article p{
+    margin-top:1.3rem;
+  }  
+
+  .second-section .second-section-1 p {
+      font-size: 1rem;
+      line-height: 1.1;
+  }
+ .second-section .second-section-1 h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.second-section .second-section-1 img {
+    max-height:105px;
+    max-width: 105px;
+}
+
+
+.second-section .second-section-1 h3 {
+    font-size: 1.5rem;
+}
+}
+
+
