@@ -28,8 +28,6 @@ Users should be able to:
 
 ![My desktop view](./design/My%20desktop%20design.png)
 
-![My mobile view](./design/My%20mobile%20view%202.png)
-
 ### Links
 
 - Solution URL: [My solution URL](https://github.com/jen67/hosting/tree/main/stats-preview-card-component-main)
