@@ -28,7 +28,7 @@ Users should be able to:
 
 ![My desktop view](./design/My%20desktop%20design.png)
 
-![My mobile view](./design/My%20mobile%20view%20.png)
+![My mobile view](./design/My%20mobile%20view%202.png)
 
 ### Links
 
