@@ -372,14 +372,13 @@ margin-top:1.7rem;
 
 .begin,
    .track {
-      padding: 0 11.923rem!important;
+      padding: 0 9.723rem!important;
    }
   
 
    .begin h1 {
-         font-size:2.39rem!important;
+         font-size:2.5rem!important;
       }
-      
 
     .sch {
     gap: 4.35rem!important;
@@ -391,12 +390,12 @@ margin-top:1.7rem;
        }
 
       .thrio {
-         padding-right: 1rem!important;
+         padding-right: 1.5rem!important;
          padding-top: 3.75rem!important;
       }
 
      .three p {
-      padding: 0 11.99rem!important;
+      padding: 0 9.00rem!important;
        }
 
       .blacklists {
@@ -405,7 +404,7 @@ margin-top:1.7rem;
       }
 
      .six p {
-      padding: 0 9.99rem!important;
+      padding: 0 8.70rem!important;
       }
 
        footer {
@@ -418,7 +417,6 @@ margin-top:1.7rem;
 
       .FAC {
       margin-left: 2rem!important;
-      padding-right: 2rem!important;
       }
 
       .Prki {
@@ -500,6 +498,7 @@ margin-top:1.7rem;
        }
 
        .thrio p{
+         padding-right:8rem;
          font-size: 1rem;
        }
 
@@ -555,26 +554,19 @@ margin-top:1.7rem;
        
       }
 
-      @media screen and (min-width: 1280px){
-         section {
-               padding: 0 12.99rem;
-            }
+      @media screen and (min-width: 1440px){
+
          .begin h1{
-            font-size:2.5rem;
+            font-size: 3.2rem;
          }
          .begin p {
-               font-size: 1.31rem;
+               font-size: 1.39rem;
             }
 
        .track h2 {
          font-size: 2rem;
       }
-           
-      
-     .begin,
-      .track {
-      padding: 0 14.75rem;
-            }
+            
       .track p {
      font-size: 1.3rem;
     }
@@ -590,8 +582,7 @@ margin-top:1.7rem;
        }
 
       .thrio p {
-      font-size: 1.29rem;
-      padding-right:0.7rem;
+      font-size: 1.3rem;
       }
 
      .thrio h3 {
