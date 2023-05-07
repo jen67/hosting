@@ -374,11 +374,13 @@ margin-top:1.7rem;
    .track {
       padding: 0 11.99rem!important;
    }
-  
-
 
    .begin h1 {
          font-size:2.3rem!important;
+      }
+
+     .track p {
+      font-size: 0.97rem !important;
       }
 
     .sch {
@@ -396,11 +398,11 @@ margin-top:1.7rem;
       }
 
       .thrio p{
-         padding-right:2.3rem!important;
+         padding-right:2rem!important;
       }
 
      .three p {
-      padding: 0 12rem!important;
+      padding: 0 11rem!important;
 
        }
 
@@ -410,7 +412,7 @@ margin-top:1.7rem;
       }
 
      .six p {
-      padding: 0 9.2rem!important;
+      padding: 0 10.9rem!important;
       }
 
        footer {
@@ -429,6 +431,7 @@ margin-top:1.7rem;
       padding-right:2rem!important;
      }
 }
+
 
 
     @media screen and (min-width: 1024px){
