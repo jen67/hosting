@@ -364,7 +364,7 @@ margin-top:1.7rem;
     }
 }
 
-@media screen and (width: 1024px){
+@media screen and (min-width: 1280px){
 
    section {
          padding: 0 1.75rem!important;
