@@ -16,6 +16,7 @@
 *::after{
     padding:0;
     margin:0;
+   -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -258,7 +259,6 @@ margin-top:1.7rem;
     font-size: 0.9rem;
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 1rem;
  }
 
  .attribution a {
@@ -362,6 +362,67 @@ margin-top:1.7rem;
     footer{
         padding:3rem 0  1.5rem 0;
     }
+}
+
+@media screen and (width: 1024px){
+
+   section {
+         padding: 0 1.75rem!important;
+      }
+
+.begin,
+   .track {
+      padding: 0 9.723rem!important;
+   }
+  
+
+   .begin h1 {
+         font-size:2.5rem!important;
+      }
+
+    .sch {
+    gap: 4.35rem!important;
+    }
+
+    .sch img {
+     width: 48.375rem!important;
+     margin-left: -15rem!important;
+       }
+
+      .thrio {
+         padding-right: 1rem!important;
+         padding-top: 3.75rem!important;
+      }
+
+     .three p {
+      padding: 0 9.00rem!important;
+       }
+
+      .blacklists {
+      gap:0.5rem!important;
+      padding: 0!important;
+      }
+
+     .six p {
+      padding: 0 8.70rem!important;
+      }
+
+       footer {
+       padding: 3rem 0 0 0!important;
+       }
+
+      .rump:not(img) {
+       margin-right: 2rem!important;
+       }
+
+      .FAC {
+      margin-left: 2rem!important;
+      padding-right: 2rem!important;
+      }
+
+      .Prki {
+      padding-right:2rem!important;
+     }
 }
 
     @media screen and (min-width: 1024px){
@@ -513,7 +574,7 @@ margin-top:1.7rem;
        .sch img {
           width: 55.375rem;
           height: 36.625rem;
-          margin-left: -10rem;
+          margin-left: -20rem;
        }
 
        .thrio{
