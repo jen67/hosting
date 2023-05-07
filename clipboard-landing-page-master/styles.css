@@ -381,7 +381,7 @@ margin-top:1.7rem;
 
      .track p{
       padding:0 0.2rem;
-      font-size:0.93rem !important;
+      font-size: 0.92rem !important;
       }
 
     .sch {
@@ -408,8 +408,13 @@ margin-top:1.7rem;
        }
 
       .blacklists {
-      gap:0.5rem!important;
+      gap:1rem!important;
       padding: 0!important;
+      }
+
+      .recret, .rec, .ret{
+         width:310px;
+                 
       }
 
      .six p {
@@ -432,8 +437,6 @@ margin-top:1.7rem;
       padding-right:2rem!important;
      }
 }
-
-
 
     @media screen and (min-width: 1024px){
 
@@ -527,9 +530,15 @@ margin-top:1.7rem;
        }
 
        .blacklists{
-         gap:2rem;
-         padding:0 2.125rem;
+         gap:1rem;
        }
+
+      .recret,
+       .rec,
+      .ret {
+        width: 380px;
+      
+             }
 
        .blacklists p{
          font-size: 1rem;
