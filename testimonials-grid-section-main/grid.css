@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;700&display=swap');
+
+:root{
+    /*Primary*/
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --violet-border:hsla(266, 63%, 70%);
+    --violet-text:hsl(278, 100%, 95%);
+
+    /*Neutral */
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 0.813rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--Light-grayish-blue);
+    min-height: 100vh;
+}
+
+main{
+    padding:1rem 1.5rem 0 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+section{
+    padding:1.6rem;
+    text-align:left;
+    margin-top:1.5rem;
+    border-radius: 10px;
+}
+
+.special{
+    opacity:70%;
+}
+
+p{
+    opacity:50%;
+}
+
+img{
+    width:30px;
+}
+
+ .first{
+    background-color: var(--Moderate-violet);
+    background-image: url(./images/bg-pattern-quotation.svg);
+   background-repeat: no-repeat;
+   background-position: top right 26px;
+   margin-top:0;
+ }
+ .first img{
+    border:3px solid var(--violet-border);
+ }
+   
+.first h1{
+    color:var(--violet-text);
+}
+
+.first h2{
+    color:var(--violet-text);
+}
+
+h1{
+    font-size: 0.813rem;
+}
+
+h2{
+    margin:0.9rem  0  0.8rem 0;
+    font-size:1.3rem;
+    font-weight: 600;
+}
+
+.first p{
+    color:var(--Light-gray);
+    font-size: 0.8rem;
+}
+
+.second{
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.second h1{
+    color:var(--White);
+}
+
+.second h2{
+    color:var(--White);
+}
+
+.second p{
+    color:white
+}
+
+.third{
+    background-color: var(--White);
+}
+
+.third h1{
+    color:var(--Very-dark-grayish-blue);
+}
+
+.third h2{
+    color: var(--Very-dark-grayish-blue);
+}
+
+.third .special{
+    font-size: 0.839rem;
+}
+
+.fourth{
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.fourth h1{
+    color:var(--White);
+}
+
+.fourth h2{
+color: var(--White);
+}
+
+.fourth  .special{
+    color: var(--White);
+    font-size: 0.859rem;
+}
+
+.fourth p{
+    color: var(--White);
+}
+
+
+.fourth img{
+    border: 3px solid var(--violet-border);
+}
+
+.fifth{
+    background-color: var(--White);
+}
+
+.fifth h1{
+    color:var(--Very-dark-grayish-blue);
+}
+
+.fifth h2{
+color: var(--Very-dark-grayish-blue);
+}
+
+.fifth p{
+color: var(--Very-dark-grayish-blue);
+}
+
+.one{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1rem;
+}
+
+.one img{
+    border-radius: 50%;;
+}
+
+.attribution {
+    font-size: 1rem;
+    padding:1rem  2rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover{
+    color:var(--Moderate-violet);
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        width:80%;
+        display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* adjust column widths as needed */
+            grid-template-rows: repeat(2, 1fr);
+            gap:1.5rem;
+    }
+    
+    .first{
+        grid-column: 1 / span 2;
+        grid-row: 1 / 2;
+        background-position: top right 100px;
+    } 
+
+    .second p.special{
+        font-size: 0.96rem;
+    }
+
+    .third{
+    grid-column: 1 / 2;
+     grid-row: 2 / 2;
+    }
+
+    .third p.special{
+        font-size:0.99rem;
+        margin-top:1rem;
+    }
+
+    .third h2{
+        margin-right:1rem;
+    }
+
+     .fourth {
+    grid-column: 2 / span 2;
+    grid-row: 2 / 2;
+        }
+
+    .fourth p.special{
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+
+    .fifth{
+    grid-column: 4 / 5;
+    grid-row: 1 / span 2;
+    }
+
+    .fifth p.special{
+        font-size: 0.96rem;
+    }
+
+    .first .special{
+        font-size: 0.90rem;
+    }
+    
+    .empty{
+    grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    section{
+        margin-top:0;
+    }
+
+    h2{
+        font-size: 1.32rem;
+    }
+}
