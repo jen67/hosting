@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [My  solution UR(https://your-solution-url.com)
-- Live Site URL: [MY live site URL](https://jen67.github.io/hosting/chat-app-css-illustration-master/.index.html)
+- Live Site URL: [MY live site URL](https://jen67.github.io/hosting/chat-app-css-illustration-master/index.html)
 
 ## My process
 
