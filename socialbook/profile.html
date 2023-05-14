@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-page</title>
+    <link rel="stylesheet" href="style.css
+    ">
+    <script src="https://kit.fontawesome.com/c8fbf75c7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="left-nav">
+            <a href="Index.html">
+            <img src="../socialbook/images/logo.png" alt="logo" class="logo">
+             </a>
+            <ul>
+                <li><img src="../socialbook/images/notification.png" alt=" "></li>
+                <li><img src="../socialbook/images/inbox.png" alt=""></li>
+                <li><img src="../socialbook/images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <div class="search-box">
+                <img src="../socialbook/images/search.png" alt="">
+                <input type="text" placeholder="search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="../socialbook/images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!--Settings-Menu-->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="../socialbook/images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholas</p>
+                        <a href="./profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="../socialbook/images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help me Improve by giving feedback</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="../socialbook/images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy<img src="../socialbook/images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="../socialbook/images/help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support<img src="../socialbook/images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="../socialbook/images/display.png" alt="" class="settings-icon">
+                    <a href="#">display & Accssibility<img src="../socialbook/images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="../socialbook/images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Log out<img src="../socialbook/images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!--  --------profile page-------  -->
+<div class="profile-container">
+    <img src="./images/cover.png" alt="" class="cover-img">
+    <div class="profile-details">
+        
+        <div class="pd-left">
+           <div class="pd-row">
+            <img src="./images/profile.png" alt="" class="pd-imgage">
+            <div>
+               <h3>Jack Nickson</h3> 
+               <p>120 Friends - 20 Mutal</p>
+               <img src="./images/member-1.png" alt="">
+               <img src="./images/member-2.png" alt="">
+               <img src="./images/member-3.png" alt="">
+               <img src="./images/member-4.png" alt="">
+            </div>
+           </div> 
+        </div>
+
+
+        <div class="pd-right">
+            <button type="button"><img src="./images/add-friends.png">Friends</button>
+            <button type="button"><img src="images/message.png">Message</button>
+            <br>
+            <a href=""><img src="./images/more.png" alt=""></a>
+        </div>
+    </div>
+
+  <div class="profile-info">
+    <div class="info-col">
+     <div class="profile-intro">
+        <h3>Intro</h3>
+        <p class="Intor-text">Believe in yourself and you can do unbelievable things. <img src="./images/feeling.png" alt=""></p>
+        <hr>
+
+        <ul>
+            <li><img src="./images/profile-job.png" alt="">Director at 99media ltd</li>
+            <li><img src="./images/profile-study.png" alt=" ">studied at Santa Babara University</li>
+            <li><img src="./images/profile-study.png">Went to DPS Delhi</li>
+            <li><img src="./images/profile-home.png" alt="">Lives in Bangalore, </li>
+            <li><img src="./images/profile-location.png" alt="">From Bangalore, India</li>
+        </ul>
+     </div>
+
+     <div class="profile-intro">
+        <div class="title-box">
+            <h3>Photos</h3>
+            <a href="#">All photos</a>
+        </div>
+        <div class="photo-box">
+            <div><img src="images/photo1.png" alt=""></div>
+            <div><img src="images/photo2.png" alt=""></div>
+            <div><img src="images/photo3.png" alt=""></div>
+            <div><img src="images/photo4.png" alt=""></div>
+            <div><img src="images/photo5.png" alt=""></div>
+            <div><img src="images/photo6.png" alt=""></div>
+        </div>
+     </div>
+
+    <div class="profile-intro">
+        <div class="title-box">
+            <h3>Friends</h3>
+            <a href="#">All Friends</a>
+        </div>
+        <p>120 (10 Mutual)</p>
+        <div class="friends-box">
+            <div><img src="images/member-1.png" alt=""><p>Joseph N</p></div>
+            <div><img src="images/member-2.png" alt=""><p>George A</p></div>
+            <div><img src="images/member-3.png" alt=""><p>Gladys E</p></div>
+            <div><img src="images/member-4.png" alt=""><p>Gift A</p></div>
+            <div><img src="images/member-5.png" alt=""><p>Michael R</p></div>
+            <div><img src="images/member-6.png" alt=""><p>Gideon R</p></div>
+            <div><img src="images/member-7.png" alt=""><p>Raymond</p></div>
+            <div><img src="images/member-8.png" alt=""><p>Margret P</p></div>
+            <div><img src="images/member-9.png" alt=""><p>Sampson</p></div>
+            
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="post-col">
+        <div class="right-post-container">
+            <div class="user-profile">
+                <img src="../socialbook/images/profile-pic.png" alt="">
+                <div>
+                    <p>John Nicholas</p>
+                    <small>Public<i class="fas fa-caret-down"></i></small>
+                </div>
+            </div>
+        
+            <div class="Post-input-container">
+                <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+        
+                <div class="add-post-links">
+                    <a href=""><img src="../socialbook/images/live-video.png" alt=""> Live Video</a>
+        
+                    <a href=""><img src="../socialbook/images/photo.png" alt=""> Photo/Video</a>
+        
+                    <a href=""><img src="../socialbook/images/feeling.png" alt=""> Feeling/Active</a>
+                </div>
+            </div>
+        </div>
+                        
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="../socialbook/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholas</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channels to watch more videos on mobild
+                    developement <a href="#">#EasyTutorials</a><a href="#">#YoutubeChannel</a></p>
+                <img src="../socialbook/images/feed-image-1.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../socialbook/images/like-blue.png" alt="">120</div>
+                        <div><img src="../socialbook/images/comments.png" alt="">45</div>
+                        <div><img src="../socialbook/images/share.png" alt="">20</div>
+                    </div>
+            
+                    <div class="post-profile-icon">
+            
+                        <img src="../socialbook/images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+            
+                    </div>
+            
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="../socialbook/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholas</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channels to watch more videos on mobild
+                    developement <a href="#">#EasyTutorials</a><a href="#">#YoutubeChannel</a></p>
+                <img src="../socialbook/images/feed-image-2.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../socialbook/images/like-blue.png" alt="">120</div>
+                        <div><img src="../socialbook/images/comments.png" alt="">45</div>
+                        <div><img src="../socialbook/images/share.png" alt="">20</div>
+                    </div>
+            
+                    <div class="post-profile-icon">
+            
+                        <img src="../socialbook/images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+            
+                    </div>
+            
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="../socialbook/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholas</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            
+                <p class="post-text">Like and share this video with Friends tag <span>@Easy Tutorials</span> Facebook page on your
+                    post. Ask your doubts in the comments <a href="#">#EasyTutorials</a><a href="#">#YoutubeChannel</a></p>
+                <img src="../socialbook/images/feed-image-3.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../socialbook/images/like.png" alt="">1k</div>
+                        <div><img src="../socialbook/images/comments.png" alt="">78</div>
+                        <div><img src="../socialbook/images/share.png" alt="">50</div>
+                    </div>
+            
+                    <div class="post-profile-icon">
+            
+                        <img src="../socialbook/images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+            
+                    </div>
+            
+                </div>
+            </div>
+            
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="../socialbook/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholas</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channels to watch more videos on mobild
+                    developement <a href="#">#EasyTutorials</a><a href="#">#YoutubeChannel</a></p>
+                <img src="../socialbook/images/feed-image-4.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../socialbook/images/like.png" alt="">120</div>
+                        <div><img src="../socialbook/images/comments.png" alt="">45</div>
+                        <div><img src="../socialbook/images/share.png" alt="">20</div>
+                    </div>
+            
+                    <div class="post-profile-icon">
+            
+                        <img src="../socialbook/images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+            
+                    </div>
+            
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="../socialbook/images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholas</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+            
+            
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channels to watch more videos on mobild
+                    developement <a href="#">#EasyTutorials</a><a href="#">#YoutubeChannel</a></p>
+                <img src="../socialbook/images/feed-image-5.png" alt="" class="post-img">
+            
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../socialbook/images/like.png" alt="">120</div>
+                        <div><img src="../socialbook/images/comments.png" alt="">45</div>
+                        <div><img src="../socialbook/images/share.png" alt="">20</div>
+                    </div>
+            
+                    <div class="post-profile-icon">
+            
+                        <img src="../socialbook/images/profile-pic.png" alt=""><i class="fas fa-caret-down"></i>
+            
+                    </div>
+            
+                </div>
+            </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+    <div class="footer">
+        <p>Copyright 2023 - Gift Amachree</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
