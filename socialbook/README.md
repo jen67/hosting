@@ -5,7 +5,6 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [video](#video)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -13,8 +12,6 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,10 +27,6 @@ Users should be able to:
 
 ![Desktop screenshot](./images/My%20desktop%20screenshot.png)
 ![My mobile screenshot](./images/My%20mobile%20design.png)
-
-### video
-
-![My video](./My%20website%20design.mp4)
 
 ### Links
 
