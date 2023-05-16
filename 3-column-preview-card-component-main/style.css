@@ -153,4 +153,8 @@ color:var(--Dark-cyan);
     .section3{
         border-radius:0 5px 5px 0;
     }
+    
+    .attribution{
+        padding-top:2rem;
+    }
 }
