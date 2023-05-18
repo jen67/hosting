@@ -20,6 +20,15 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
 
 body {
     font-size: 18px;
@@ -131,7 +140,29 @@ nav img {
     border-radius: 12px;
     padding: 2rem 0.5rem
 }
+.flex__items.flex__items1{
+    animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-name: slideInLeft;
+}
 
+.flex__items.flex__items2{
+    animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-name: slideInLeft;
+}
+
+.flex__items.flex__items3{
+    animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-name: slideInLeft;
+}
 .flex__items img {
     margin-top: 2rem;
     width: 80%;
