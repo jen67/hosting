@@ -2,14 +2,7 @@
 
 ## Screenshots
 
-<style>
-    img{
-        width:100px;
-    }
-
-    </style>
-
-[![Huddle-landing-page](./images/huddle.png)](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
+[![Huddle-landing-page](./images/huddle.png width="100px" height="100px")](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
 
 [![order-summary](./images/order-summary.png)](https://jen67.github.io/hosting/order-summary-component-main/index.html)
 
