@@ -2,16 +2,9 @@
 
 ## Screenshots
 
-<style>
-    img{
-        width:100px;
-    }
+[![Huddle-landing-page](./images/huddle.png)](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
 
-    </style>
-
-[![Huddle-landing-page](/images/huddle.png)](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
-
-[![order-summary](/images/order-summary.png)](https://jen67.github.io/hosting/order-summary-component-main/index.html)
+[![order-summary](../images/order-summary.png)](https://jen67.github.io/hosting/order-summary-component-main/index.html)
 
 [![profile-card](/images/profilecard.png)](https://jen67.github.io/hosting/profile-card-component-main/index.html)
 
