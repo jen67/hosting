@@ -62,8 +62,7 @@ nav.logo{
 }
 
 nav.logo img{
-    margin-top:0.6rem;
-    display:inline-block;
+    display:block;
 }
 
 nav .menu-icons{
@@ -71,7 +70,6 @@ nav .menu-icons{
 }
 nav .open-menu{
     position: absolute;
-    display: inline-block;
     cursor:pointer;
     transition:all 0.3s ease-in-out;
 }
@@ -89,30 +87,29 @@ nav .menu-close{
 }
 
 nav ul{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    position:absolute;
-    top:4rem;
-    right:2.9rem;
-    height:50vh;
-    background-color: var(--White);
-    width:87%;
-    left:50%;
-    right:50%;
-    transform:translate(-50%, -50%);
-    top:18.5rem;
-    transition:all 0.5s ease-in-out;
-    transform-origin: 100% 50%;
-    z-index: 99999;
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            position: absolute;
+            right: 2.9rem;
+            height: 50vh;
+            background-color: var(--White);
+            width: 87%;
+            left: 50%;
+            top:8rem;
+            transform: translate(-50%, 0);
+            transition: all 0.5s ease-in-out;
+            z-index: 99999;
+        
   }
 
 nav ul::before{
     content: "";
         position: absolute;
         top: -30px;
-        right: 0;
+        right:0;
         border-left:35px solid transparent;
         border-right: 0px solid transparent;
         border-bottom: 34px solid #fff;
@@ -408,6 +405,7 @@ footer p{
 .attribution a:hover{
     color:var(--White);
 }
+
 @media screen and (min-width: 768px){
     nav{
         padding:2rem
@@ -512,6 +510,9 @@ footer p{
     flex-direction: row;
     }
 
+    .flex-items2 h3{
+        padding-top:0;
+    }
     .flex-items2 img{
         height:100%;
         width:1300px;
@@ -701,4 +702,58 @@ footer p{
         
     }
 
+}
+
+@media screen and (min-width: 1440px){
+.flex-items {
+        padding: 4.7rem;
+    }
+
+    .flex-items h2{
+        padding-top:6rem;
+        padding-right:4rem;
+    }
+
+    .flex-items h3{
+        padding-top:6rem;
+    }
+
+
+    .flex-items p{
+        padding-right: 6rem;
+    }
+    .graphic-design p{
+    padding-right: 8rem;
+    padding-left: 8rem;
+    }
+
+    .photography p{
+        padding-right: 6.5rem;
+        padding-left: 6.5rem;
+    }
+
+    .learn-more{
+        padding-right:0;
+        transform: translateX(-40%);
+    }
+
+   .testimonials p {
+    font-size: 1.125rem;
+}
+
+.testimonials-container {
+    gap:1.2rem;
+}
+
+.testimonials{
+    width:350px;
+}
+.graphic-design{
+    height:auto;
+    padding-top:24rem;
+}
+
+.photography{
+    padding-top: 24rem;
+}
 }
