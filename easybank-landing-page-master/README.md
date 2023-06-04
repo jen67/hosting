@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution URL](https://github.com/jen67/hosting/tree/main/easybank-landing-page-master)
-- Live Site URL: [Add live site URL here](https://jen67.github.io/hosting/easybank-landing-page-master/index.html)
+- Live Site URL: [My live site URL](https://jen67.github.io/hosting/easybank-landing-page-master/index.html)
 
 ## My process
 
