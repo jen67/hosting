@@ -335,7 +335,7 @@ cursor:pointer;
   content:url(./images/pinterest-hover.svg);
  }
 
- @media screen and (max-width: 712px){
+@media screen and (min-width:712px){
  main{
    padding-top:6rem;
  }
