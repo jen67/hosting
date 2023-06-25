@@ -200,7 +200,7 @@ margin-right: 320px;
 
 @media screen and (min-width: 1280px) {
 main{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
     body {
             background-image: url(./images/bg-desktop.svg);
