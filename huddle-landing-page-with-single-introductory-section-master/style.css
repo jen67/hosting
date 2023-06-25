@@ -83,19 +83,22 @@ footer div{
     gap: 1rem;
 }
 
-footer .footer-images div{
+.footer-images a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--fonts);
-    padding:15px;
+    padding: 15px;
     position: relative;
     border-radius: 50%;
-
-}
-.footer-images i {
-    transition: transform  0.9s ease-in;
-    position:absolute;
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
 }
 
-.footer-images div:hover {
+.footer-images a i {
+    position: absolute;
+}
+
+.footer-images a:hover {
     color: var(--Soft-Magenta);
     border-color: var(--Soft-Magenta);
 }
