@@ -224,6 +224,10 @@ main{
             gap:2rem;
         }
 
+    main section{
+            width: 1100px;
+        }
+
                 main section button {
                     margin-top: 2rem;
                     padding: 14px 74px;
