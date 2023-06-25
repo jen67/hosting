@@ -217,7 +217,7 @@ main{
 
     header nav img {
         width: 300px;
-        margin-right: 700px;
+        margin-right: 900px;
     }
 
         main .divider{
@@ -225,7 +225,7 @@ main{
         }
 
     main section{
-            width: 1200px;
+            width: 1000px;
         }
 
                 main section button {
