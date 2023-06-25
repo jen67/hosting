@@ -221,11 +221,11 @@ main{
     }
 
         main .divider{
-            gap:1rem;
+            gap:3rem;
         }
 
     main section{
-           max-width: 9600px;
+           max-width: 920px;
         }
 
                 main section button {
