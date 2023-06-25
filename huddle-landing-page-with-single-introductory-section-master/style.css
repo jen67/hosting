@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --fonts:hsl(0, 0%, 100%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    max-width: 100%;
+}
+h1{
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+margin-bottom: 1.2rem;
+}
+
+main{
+width: 80%;
+margin:auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--Violet);
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:var(--fonts);
+    text-align: center;
+    height:100%;
+    
+}
+
+header{
+    padding-top: 2rem;
+}
+
+header nav img{
+    width:36%;
+    margin-left:-11rem;
+}
+
+main div img{
+    margin-top: 3.3rem;
+}
+
+main section{
+    margin-top: 3.2rem;
+}
+
+main section p{
+    line-height: 1.5;
+}
+
+main section button{
+    margin-top: 2rem;
+    padding: 17px 80px;
+    color:var(--Violet);
+    border-radius: 25px;
+    border:transparent;
+    transition: background-color 0.3s ease-in-out, color 0.4s ease-in-out;
+}
+main section button:hover{
+    background-color: var(--Soft-Magenta);
+    color:var(--fonts);
+}
+
+
+footer div{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .footer-images div{
+    border: 1px solid var(--fonts);
+    padding:15px;
+    position: relative;
+    border-radius: 50%;
+
+}
+.footer-images i {
+    transition: transform  0.9s ease-in;
+    position:absolute;
+}
+
+.footer-images div:hover {
+    color: var(--Soft-Magenta);
+    border-color: var(--Soft-Magenta);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width:50%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.attribution a {
+    color: var(--fonts);
+} 
+
+.attribution a:hover{
+    color:var(--Soft-Magenta);
+}
+
+@media screen and (min-width: 768px){
+
+    main{
+        width: 90%;
+    }
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-size: cover;
+        background-size: 80% 100%;    
+    }
+
+    main .divider{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:1rem;
+        align-items: center;
+    }
+
+    main section{
+        text-align: left;
+        width:100%;
+    }
+
+    main div{
+        width:100%;
+    }
+
+        main div img{
+            width:100%;
+           
+        }
+
+        h1{
+            font-size: 1.4rem;
+            margin-top:0.5rem;
+            padding-right:3rem;
+           margin-bottom:0.5rem;
+        }
+
+        main section button{
+        margin-top:1.2rem;
+        padding: 10px 34px;
+        }
+
+                main section p{
+                    font-size: 0.74rem;
+                }
+
+        header nav img{
+width:200px;
+margin-right: 320px;
+    }
+
+
+    footer div.footer-images{
+        margin-top:1rem;
+        margin-left:500px;
+    }
+
+    footer div{
+ margin-top: 0;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    main section p{
+        font-size:1rem;
+    }
+
+         header nav img {
+             width: 300px;
+             margin-right: 700px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+main{
+    margin-top: 3rem;
+}
+    body {
+            background-image: url(./images/bg-desktop.svg);
+            background-size: cover;
+            background-size: 80% 104%;
+        }
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main section p {
+        font-size: 1.2rem;
+    }
+
+    header nav img {
+        width: 300px;
+        margin-right: 700px;
+    }
+
+        main .divider{
+            gap:2rem;
+        }
+
+                main section button {
+                    margin-top: 2rem;
+                    padding: 14px 74px;
+                }
+
+        footer div.footer-images {
+            margin-left: 900px;
+        }
+
+        .attribution{
+            margin-left: 700px;;
+        }
+
+        footer{
+           padding-top: 2rem;
+        }
+
+}
