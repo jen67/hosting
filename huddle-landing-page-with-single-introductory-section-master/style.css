@@ -200,7 +200,7 @@ margin-right: 320px;
 
 @media screen and (min-width: 1280px) {
 main{
-    margin-top: 1.5rem;
+    margin-top:0;
 }
     body {
             background-image: url(./images/bg-desktop.svg);
@@ -209,6 +209,7 @@ main{
         }
     h1 {
         font-size: 2.5rem;
+        margin-top:0;
     }
 
     main section p {
@@ -225,7 +226,7 @@ main{
         }
 
     main section{
-           max-width: 920px;
+           max-width: 620px;
         }
 
                 main section button {
