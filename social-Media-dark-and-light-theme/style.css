@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+    /* Primary */
+    --Lime-Green: hsl(163, 72%, 41%);
+    --Bright-Red: hsl(356, 69%, 56%);
+    --Facebook: hsl(208, 92%, 53%);
+    --Twitter: hsl(203, 89%, 53%);
+    --Instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    --YouTube: hsl(348, 97%, 39%);
+
+    /* Light Theme */
+    --round-toggle: hsl(0, 0%, 100%);
+    --Very-Pale-Blue-Top-BG-Pattern: hsl(225, 100%, 98%);
+    --card-colors: hsl(227, 47%, 96%);
+    --Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
+    --headers-text: hsl(230, 17%, 14%);
+    --first-header: hsl(232, 19%, 15%);
+    --Toggle-light: hsl(230, 22%, 74%);
+    --hover: hsl(230, 20%, 90%);
+    --Toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.dark-theme {
+    --body-background: hsl(230, 17%, 14%);
+    --Very-Dark-Blue-Top-BG-Pattern: hsl(232, 19%, 15%);
+    --card-colors: hsl(228, 28%, 20%);
+    --headers-text: hsl(228, 34%, 66%);
+    --headers-text: hsl(0, 0%, 100%);
+    --Toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --hover:hsl(228, 26%, 27%);
+}
+
+* {
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--body-background);
+}
+
+#dark-button {
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 28px;
+    display: flex;
+    background: var(--Toggle-light);
+    transition: background 0.5s, padding-right 0.5s;
+}
+
+#dark-button:hover {
+    background: var(--Toggle);
+}
+
+#dark-button span {
+    background: var(--round-toggle);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background 0.6s;
+    flex-shrink: 0;
+}
+
+#dark-button.dark-theme {
+    padding-left: 4px;
+    padding-right: 28px;
+    background: var(--Toggle);
+}
+
+#dark-button.dark-theme span {
+    background: var(--card-colors);
+}
+
+header,
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    padding-top: 1.3rem;
+}
+
+header nav div h1 {
+    margin-bottom: 0.2rem;
+    color: var(--headers-text);
+}
+
+header nav div p {
+    margin-bottom: 1rem;
+    color: var(--Dark-Grayish-Blue-Text);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.button-mode {
+    border-top: 2px solid var(--Toggle-light);
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section .social-blocks-1 {
+    background-color: var(--card-colors);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    border-radius: 5px;
+}
+
+main section .social-blocks-1 a {
+    text-decoration: none;
+    color: var(--Lime-Green);
+    font-weight: 600;
+    font-size: 0.9rem;
+
+}
+
+.social-blocks-1:hover{
+    background-color: var(--hover);
+    
+}
+.social-blocks-1 h2 {
+    font-size: 3.5rem;
+    color: var(--headers-text)
+}
+
+.followers,
+.subscribers {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--Dark-Grayish-Blue-Text);
+    letter-spacing: 0.2rem;
+}
+
+.gradient-border {
+    position: relative;
+    overflow: hidden;
+    margin-top: 1.6rem;
+
+}
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4.5px;
+    background: var(--Instagram);
+}
+
+.red-border {
+    border-top: 5px solid var(--YouTube);
+    margin-top: 1.6rem;
+}
+
+#arrow-text-last {
+    color: var(--Bright-Red);
+}
+
+.icons-likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    color: var(--Dark-Grayish-Blue-Text);
+    font-weight: 600;
+}
+
+.tag {
+    font-size: 0.8rem;
+}
+
+.arrow-text {
+    display: flex;
+    gap: 0.2rem;
+    margin-top: 1.6rem;
+}
+
+.arrow-text img {
+    margin-bottom: 0.25rem;
+}
+
+.blue-border {
+    border-top: 5px solid var(--Facebook);
+    margin-top: 1.6rem;
+}
+
+.blue-border1 {
+    border-top: 5px solid var(--Twitter);
+    margin-top: 1.6rem;
+}
+
+/* The second section of this webpage */
+
+article {
+    margin-top: 3rem;
+}
+
+article h3 {
+    color: var(--headers-text);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+article section .second-blocks {
+    background-color: var(--card-colors);
+    margin-top: 1.3rem;
+    border-radius: 5px;
+    padding: 1.2rem 1.5rem;
+}
+
+.second-blocks:hover{
+    background-color: var(--hover);
+}
+
+.flex p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--Dark-Grayish-Blue-Text);
+}
+
+.flex h4 {
+    font-size: 2rem;
+    color: var(--headers-text);
+    padding-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.green-link {
+    color: var(--Lime-Green);
+}
+
+.red-link {
+    color: var(--Bright-Red);
+}
+
+.flex:nth-last-child(1) {
+    padding-top: 1rem;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.attribution {
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--headers-text);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--headers-text);
+}
+
+.attribution a:hover {
+    color: var(--Lime-Green);
+}
+
+
+@media screen and (min-width: 768px) {
+
+    main,
+    header {
+        width: 90%;
+    }
+
+    header {
+        margin-top: 1rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+
+    }
+
+    .social-blocks-1 {
+        flex: 1;
+
+    }
+
+    .second-blocks {
+        flex: 1;
+    }
+
+    div.button-mode {
+        border: none;
+        justify-content: normal;
+        gap: 1rem;
+        padding-top: 0;
+    }
+
+    div.button-mode p {
+        margin-bottom: 0;
+    }
+
+}
