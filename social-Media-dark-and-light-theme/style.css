@@ -18,7 +18,7 @@
     --headers-text: hsl(230, 17%, 14%);
     --first-header: hsl(232, 19%, 15%);
     --Toggle-light: hsl(230, 22%, 74%);
-    --hover: hsl(230, 20%, 90%);
+    --hover: hsl(230, 25%, 90%);
     --Toggle: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
 }
 
@@ -130,6 +130,8 @@ main section .social-blocks-1 a {
 
 .social-blocks-1:hover{
     background-color: var(--hover);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: translate(-5px);
     
 }
 .social-blocks-1 h2 {
@@ -227,6 +229,8 @@ article section .second-blocks {
 
 .second-blocks:hover{
     background-color: var(--hover);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: translate(-5px);
 }
 
 .flex p {
