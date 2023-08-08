@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution Url](https://github.com/jen67/hosting/tree/main/social-Media-dark-and-light-theme)
-- Live Site URL: [My live url](https://jen67.github.io/hosting\social-Media-dark-and-light-theme/index.html)
+- Live Site URL: [My live url](https://jen67.github.io/hosting/social-Media-dark-and-light-theme/index.html)
 
 ## My process
 
