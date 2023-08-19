@@ -195,7 +195,16 @@ h1{
     color:var(--Reset-del-and-equal-to-color);
 }
 
+#purple-key1{
+    background-color: var(--Del-key);
+    box-shadow: 0 3px var(--Del-key-shadow);
+    color:var(--Reset-del-and-equal-to-color);
+}
+
 #purple-key:active{
+    background-color: var(--Reset-and-del);
+}
+#purple-key1:active{
     background-color: var(--Reset-and-del);
 }
 
