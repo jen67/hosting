@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root{
+/*Backgrounds*/
+--background: hsl(222, 26%, 31%);
+--Calculator-background: hsl(223, 31%, 20%);
+--screen-background: hsl(224, 36%, 15%);
+
+/* Keys */
+--Del-key: hsl(225, 21%, 49%);
+--Del-key-shadow: hsl(224, 28%, 35%);
+--orange-key: hsl(6, 63%, 50%);
+--orange-key-shadow: hsl(6, 70%, 34%);
+--light-gray-key: hsl(30, 25%, 89%);
+--light-grey-key-shadow: hsl(28, 16%, 65%);
+
+/* Text */
+--Keypad-color: hsl(221, 14%, 31%);
+--Reset-del-and-equal-to-color: hsl(0, 0%, 100%);
+--h2-color: hsl(0, 0%, 100%);
+--cyan-keypad-color: hsl(0, 0%, 100%);
+
+/* hover states */
+--hover-state: hsl(0, 0%, 100%);
+--Reset-and-del: hsl(225, 21%, 55%);
+--Equal-to-hover: hsl(5, 93%, 67%);
+}
+
+
+.theme-2{
+    /* Backgrounds */
+--background: hsl(0, 0%, 90%);
+--Calculator-background: hsl(0, 5%, 81%);
+--screen-background: hsl(0, 0%, 93%);
+
+/* Keys */
+--Del-key: hsl(185, 42%, 37%);
+--Del-key-shadow: hsl(185, 58%, 25%);
+--orange-key: hsl(25, 98%, 40%);
+--orange-key-shadow: hsl(25, 99%, 27%);
+--light-gray-key: hsl(45, 7%, 89%);
+--light-grey-key-shadow: hsl(35, 11%, 61%);
+
+/* Text */
+--Keypad-color: hsl(60, 10%, 19%);
+--Reset-del-and-equal-to-color: hsl(0, 0%, 100%);
+--h2-color: hsl(60, 10%, 19%);
+--cyan-keypad-color: hsl(0, 0%, 100%);
+
+/* hover states */
+--hover-state: hsl(0, 0%, 100%); 
+--Reset-and-del: hsl(185, 41%, 56%);
+--Equal-to-hover: hsl(25, 98%, 50%);
+}
+
+
+.theme-3{
+/* Backgrounds */
+--background: hsl(268, 75%, 9%);
+--Calculator-background: hsl(268, 71%, 12%);
+--screen-background:hsl(268, 71%, 12%);
+
+/* Keys */
+--Del-key: hsl(281, 89%, 26%);
+--Del-key-shadow: hsl(285, 91%, 52%);
+--orange-key: hsl(176, 100%, 44%);
+--orange-key-shadow: hsl(177, 92%, 70%);
+--light-gray-key: hsl(268, 47%, 21%);
+--light-grey-key-shadow: hsl(290, 70%, 36%);
+
+/* Text */
+--Keypad-color: hsl(52, 100%, 62%);
+--cyan-keypad-color: hsl(198, 20%, 13%);
+--Reset-del-and-equal-to-color-text: hsl(0, 0%, 100%);
+--h2-color: hsl(52, 100%, 62%);
+
+/* hover state */
+--hover-state: hsl(281, 89%, 26%);
+--Reset-and-del: hsl(290, 70%, 36%);
+--Equal-to-hover: hsl(177, 92%, 70%);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--background);
+}
+
+h1, h2, .numbers{
+    color: var(--h2-color);
+}
+
+header nav h2{
+    font-size: 1rem; 
+    padding-top: 1rem;
+    margin-right: -8rem;
+}
+
+
+ main, header{ 
+   max-width:500px;
+    margin:auto;
+    padding: 1rem;
+}
+
+main{
+    padding-top:0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    font-size: 2rem;
+    
+}
+
+.numbers{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-items{
+    display: flex;
+}
+.switch{
+    padding-right: 0.4rem;
+    height:1.2rem;
+    width:60px;
+    border-radius: 40px;
+    background-color: var(--Calculator-background);
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+
+.switch span {
+    width: 14px;
+    height: 14px;
+    background-color: var(--orange-key);
+    border-radius: 50%; 
+    
+}
+
+.switch span:active{
+    background-color: var(--Equal-to-hover);
+}
+.grid-container>div {
+    display: flex;
+    align-items: center;
+    /* Vertically center content */
+    justify-content: center;
+    /* Horizontally center content */
+    padding: 10px;
+    /* Adjust spacing inside items as desired */
+    background-color: var(--light-gray-key);
+    box-shadow: 0 3px var(--light-grey-key-shadow);
+    border-radius: 5px;
+    color:var(--Keypad-color);
+    cursor:pointer;
+}
+
+.grid-container>div:active{
+    background-color: var(--hover-state);
+        transform: translateY(4px);
+}
+
+
+#purple-key{
+    background-color: var(--Del-key);
+    box-shadow: 0 3px var(--Del-key-shadow);
+    color:var(--Reset-del-and-equal-to-color);
+}
+
+#purple-key:active{
+    background-color: var(--Reset-and-del);
+}
+
+#orange-key{
+    background-color: var(--orange-key);
+    box-shadow: 0 3px var(--orange-key-shadow);
+    color:var(--cyan-keypad-color);
+}
+
+#orange-key:active{
+    background-color: var(--Equal-to-hover);
+}
+/* Make the last two divs span 2 columns each */
+.grid-container>div:nth-last-child(2),
+.grid-container>div:last-child {
+    grid-column: span 2;
+}
+
+section:first-of-type{
+    background-color: var(--screen-background);
+    padding: 2rem 1rem;
+    margin:1rem 0 1.2rem;
+    border-radius: 8px;    
+}
+
+section:first-of-type h2{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+section:nth-of-type(2){
+    background-color:var(--Calculator-background);
+    padding:1rem;
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    color:var(--Keypad-color);
+}
+
+.attribution a {
+    color: var(--Keypad-color);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px){
+    header {
+            margin-top: 4rem;
+        }
+
+        header nav h2{
+            margin-right: -12rem;
+        }
+}
