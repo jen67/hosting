@@ -1,7 +1,5 @@
 # 🌍 Zlush: African Fashion Hub 🌍
 
-![Website Banner](https://jen67.github.io/hosting/REDOTASK/week3task/images/fitth.jpeg)
-
 Welcome to the repository of Zlush - a fusion of timeless African fashion and modern design, celebrating the vast and vibrant tapestry of Africa. This website was crafted during my exciting internship at **Side Hustle**.
 
 ## 🌟 Features 🌟
@@ -25,9 +23,9 @@ Want to run this project locally? Here's how:
 
 1. **Navigate to the project directory**:
 
-```bash
-cd hosting/REDOTASK/week3task
-```
+  ```bash
+  cd hosting/REDOTASK/week3task
+ ```
 
 1. **Open index.html in your preferred browser.**
 
