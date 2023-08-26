@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(fitth.jpeg);
+    background: url(./images/fitth.jpeg);
     background-size: cover;
 }
 .banner .content{
@@ -215,7 +215,7 @@ section{
     color: #111;
  }
  .testimonials{
-    background: url(Free\ Photo\ _\ Landscape\ shot\ of\ a\ white\ textured\ background.jpeg);
+    background: url(./images/Free\ Photo\ _\ Landscape\ shot\ of\ a\ white\ textured\ background.jpeg);
     background-size: cover;
 
  }
@@ -274,7 +274,6 @@ section{
     font-weight: 600;
 }
 .contact{
-    background: url();
     background-size: cover;
 }
 .contactForm{
@@ -441,20 +440,6 @@ background: #ffd7e4;
         h2{
         text-align:center;
         }
-       
-       
-  
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media(max-width:991px){
@@ -492,14 +477,14 @@ background: #ffd7e4;
         position: relative;
         width: 40px;
         height: 40px;
-        background:url(menu.png);
+        background:url(./images/menu.png);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
         cursor:pointer;
     }
     .menuToggle.active{
-        background:url(close.png);
+        background:url(./images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;  
