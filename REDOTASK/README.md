@@ -23,9 +23,9 @@ Want to run this project locally? Here's how:
 
 1. **Navigate to the project directory**:
 
-  ```bash
+   ```bash
     cd hosting/REDOTASK/week3task
- ```
+   ```
 
 1. **Open index.html in your preferred browser.**
 
