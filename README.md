@@ -40,4 +40,4 @@
 
 - Live URL: [simple form](https://jen67.github.io/hosting/SimpleTable.html)
 
-- livw URL: [Luck Shrub](https://jen67.github.io/hosting/Cousera_porfolio-project/index.html).
+- live URL: [Luck Shrub](https://jen67.github.io/hosting/Cousera_porfolio-project/index.html).
