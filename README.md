@@ -6,6 +6,8 @@
 
 - 🌐 Live URL: [Huddle-landing-page](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
 
+- 📘 Live URL: [social-book](https://jen67.github.io/hosting/socialbook/Index.html)
+
 - 🌞 Live URL: [Sunny-landing-page](https://jen67.github.io/hosting/sunnyside-agency-landing-page-main/index.html)
 
 - 📰 Live URL: [News-homepage](https://jen67.github.io/hosting/news-homepage-main/index.html)
@@ -35,8 +37,6 @@
 - 🔍 Live URL: [qr-code](https://jen67.github.io/hosting/QR-CODE-COMPONENT-MAIN/design/QRCODE.html)
 
 - 🤳 Live URL: [my-qr-code](https://jen67.github.io/hosting/Designs/Myqrcode.html)
-
-- 📘 Live URL: [social-book](https://jen67.github.io/hosting/socialbook/Index.html)
 
 - ✨ Live URL: [glow-form](https://jen67.github.io/hosting/Submitform.html)
 
