@@ -1,6 +1,8 @@
 # This contains links to all the webpages in this repository
 
-## Screenshots
+## Links 
+
+- 👗 Live URL: [African-fashion](https://jen67.github.io/hosting/REDOTASK/week3task.html)
 
 - 🌐 Live URL: [Huddle-landing-page](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
 
@@ -35,8 +37,6 @@
 - 🤳 Live URL: [my-qr-code](https://jen67.github.io/hosting/Designs/Myqrcode.html)
 
 - 📘 Live URL: [social-book](https://jen67.github.io/hosting/socialbook/Index.html)
-
-- 👗 Live URL: [African-fashion](https://jen67.github.io/hosting/REDOTASK/week3task.html)
 
 - ✨ Live URL: [glow-form](https://jen67.github.io/hosting/Submitform.html)
 
