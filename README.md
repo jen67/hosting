@@ -4,6 +4,8 @@
 
 - Live URL: [Huddle-landing-page](https://jen67.github.io/hosting/huddle-landing-page-with-alternating-feature-blocks-master/index.html)
 
+- Live URL: [Sunny-landing-page](https://jen67.github.io/hosting/sunnyside-agency-landing-page-main/index.html)
+
 - Live URL: [order-summary](https://jen67.github.io/hosting/order-summary-component-main/index.html)
 
 - Live URL: [profile-card](https://jen67.github.io/hosting/profile-card-component-main/index.html)
