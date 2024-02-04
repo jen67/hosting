@@ -9,10 +9,6 @@
     --Very-dark-blue: hsl(240, 100%, 5%);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -20,10 +16,12 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     font-weight: 400;
-    height: 100vh;
+    min-height: 100vh;
     background: var(--Off-white);
 
 }
