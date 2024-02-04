@@ -391,6 +391,7 @@ div.attribution a:hover {
 
 
     .headline {
+        margin-top: 1.2rem;
         column-count: 2;
         gap: 6rem;
 
