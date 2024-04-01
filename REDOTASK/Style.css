@@ -1,6 +1,6 @@
 :root {
   --p__txt--1: #111;
-  --banner__txt--2: #fff;
+  --banner__txt--2: #ffffff;
   --btn__bg--3: #ff0157;
   --header__box__shadow--4: rgba(0, 0, 0, 0.5);
   --styles__box__shadow--5: rgba(0, 0, 0, 0.08);
@@ -59,7 +59,7 @@ body {
 }
 .btn {
   font-size: 1em;
-  color: var(--banner__txt--2);
+  color: var(--p__txt--1);
   background: var(--btn__bg--3);
   display: inline-block;
   padding: 10px 30px;
@@ -375,7 +375,7 @@ section {
 /* Set a style for the submit button */
 .btm {
   background-color: var(--btn__bg--3);
-  color: var(--icon__txt--11);
+  color: var(--p__txt--1);
   padding: 15px 20px;
   border: none;
   cursor: pointer;
