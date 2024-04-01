@@ -1,3 +1,14 @@
+const hLinks = document.querySelectorAll("header ul li a");
+const menuToggle = document.querySelector(".menuToggle");
+
+menuToggle.addEventListener("click", function () {
+  toggleMenu();
+});
+
+hLinks.forEach((link) => {
+  link.addEventListener("click", toggleMenu);
+});
+
 // This javascript is responsible for the change of the stick navbar during scrolling
 window.addEventListener("scroll", function () {
   const header = document.querySelector("header");
@@ -5,7 +16,6 @@ window.addEventListener("scroll", function () {
 });
 
 function toggleMenu() {
-  const menuToggle = document.querySelector(".menuToggle");
   const navigation = document.querySelector(".navigation");
   menuToggle.classList.toggle("active");
   navigation.classList.toggle("active");
