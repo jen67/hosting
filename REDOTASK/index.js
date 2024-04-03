@@ -16,6 +16,7 @@
     header.classList.toggle("sticky", window.scrollY > 0);
   };
 
+
   const validateForm = () => {
     let fullname = document.forms["myForm"]["usrnm"].value;
     let email = document.forms["myForm"]["email"].value;
