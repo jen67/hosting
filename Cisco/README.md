@@ -1,3 +1,3 @@
 
-# My Cisco Internet of things certificate
+# My Cisco Internet of things Certificate
 
