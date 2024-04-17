@@ -2,6 +2,7 @@
 
 Welcome to the repository of Zlush - a fusion of timeless African fashion and modern design, celebrating the vast and vibrant tapestry of Africa. This website was crafted during my exciting internship at **Side Hustle**.
 
+
 ## 🌟 Features 🌟
 
 1. **Elegant Design**: The website boasts a minimalistic yet captivating design, echoing the essence of African beauty.
