@@ -3,6 +3,7 @@ let pElements = document.querySelectorAll(".numbers p");
 let switchContainer = document.querySelector(".switch");
 let body = document.querySelector("body");
 
+
 switchContainer.addEventListener("click", function(event) {
     // Calculate the width of a single segment
     let segmentWidth = switchContainer.offsetWidth / 3;
